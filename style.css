@@ -26,11 +26,11 @@ html {
 }
 #learn {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 0;
     right: 0;
     color: #fff;
-    text-align: center;
+    text-align: bottom;
     font-family: Lato;
     font-weight: 300;
     font-size: 50px;
