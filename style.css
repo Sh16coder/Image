@@ -3,7 +3,14 @@ html {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
-
+.container {
+    flex-direction: row;
+}
+    @media(max-width; 600px){
+      .container {
+          flex-direction: column;
+      }
+    }
 #title {
     position: absolute;
     top: 50%;
